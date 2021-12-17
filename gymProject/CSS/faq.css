@@ -1,0 +1,56 @@
+.color{
+  color: white;
+}
+
+.accordion {
+  background-color: black;
+  color: darkgoldenrod;
+  cursor: pointer;
+  padding: 18px 40px 18px 30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  opacity: 0.7;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(71, 68, 68);
+  opacity: 0.7; 
+  color: yellow;
+}
+
+.accordion:after{
+  content: "\2193";
+  color: yellow;
+  float: right;
+  font-size: 25px;
+}
+
+.active:after{
+  content: "\2191";
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: black;
+  color: whitesmoke;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.bgimg{
+  background-image: url(../images/landscape1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+  .bgimg{
+    background-image: url(../images/portrait.jpg);
+  }
+}
+

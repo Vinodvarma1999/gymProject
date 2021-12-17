@@ -1,0 +1,96 @@
+  /* box start here */
+  .box{
+    display: flex;
+    /* margin: 9px 30px; */
+    padding: auto;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+.box h3{
+    color: goldenrod;
+}
+
+.box1{
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+    height: 190px;
+    width: 320px;
+    font-variant: small-caps;
+    background-color: rgb(243, 233, 233);
+    transition: 0.5s;
+      
+}
+.box1:hover{
+    font-size: 18px;
+    /* transform: scale(1.1,1.1); */
+}
+@media screen and (max-width:480px){
+  .box{
+    width:100% ;
+    float: none;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+.box2{
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+    height: 190px;
+    width: 320px;
+    font-variant: small-caps;
+    background-color: rgb(243, 233, 233);
+    transition: 0.5s;
+}
+.box2:hover{
+    font-size: 18px;
+    /* transform: scale(1.1,1.1); */
+} 
+.box3{
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: center;
+    height: 190px;
+    width: 320px;
+    font-variant: small-caps;
+    background-color: rgb(243, 233, 233);
+    transition: 0.5s;
+} 
+.box3:hover{
+    font-size: 18px;
+    /* transform: scale(1.1,1.1); */
+}
+/* box ends here */
+
+/* Gym Info starts Here */
+
+.caption{
+  color: black;
+  text-align: center;
+  font-family: cursive;
+}
+.summary{
+  padding-left: 100px;
+  padding-right:100px;
+  color: black;
+  font-size: 20px;
+  font-variant: small-caps;
+  text-align: center;
+}
+/* .summary:hover{
+  font-size: 25px;
+  transition: 0.5s ease-in-out;
+} */
+/* Gym Info ENds Here */
+
+/* Couresel Starts here */
+@media screen and (max-width:480px){
+  .carousel-inner{
+    height: 450px;
+    object-fit: cover;
+  }
+}
+/*  corosel ends here */
